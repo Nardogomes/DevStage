@@ -1,6 +1,6 @@
-import "./globals.css";
-import { Montserrat, Oxanium } from "next/font/google";
 import type { Metadata } from "next";
+import { Montserrat, Oxanium } from "next/font/google";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Dev Stage",
