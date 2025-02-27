@@ -7,6 +7,8 @@ import logo from '../../assets/logo.svg'
 import { InviteLinkInput } from './invite-link-input'
 
 export default function InvitePage() {
+  const inviteLink = 'https://devstage.com.br/invite/123456'
+
   return (
     <div className="min-h-dvh flex flex-col items-center justify-between gap-16 md:flex-row">
       <div className="flex flex-col gap-10 w-full max-w-[550px]">
@@ -33,7 +35,7 @@ export default function InvitePage() {
             </p>
           </div>
 
-          <InviteLinkInput />
+          <InviteLinkInput inviteLink={inviteLink} />
 
           <Stats />
         </div>
